@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #02000A;
+}
+.container{
+    background-color:#02000A;
+    height:90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    background-image: url("./images/Mt_\ Fuji\ \(富士さん\).jpeg");
+    height: 700px;
+    width: 800px;
+    background-size: cover;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 700px;
+}
+.right{
+    color: antiquewhite;
+}
+input{
+    background-color: #000000;
+    color: white;
+    border:2px white solid;
+    border-radius: 20px;
+    height:40px ;
+    width: 350px ;
+}
+.button{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+}
+.create{
+    background-color: rgb(15, 98, 161);
+    color:white;
+}
+.create:hover{
+    background-color: #022760;
+    color:#c1e8ff;
+    border: #c1e8ff 2px solid;
+}
+.gsign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.google div img{
+    height: 20px;
+    width: 20px;
+}
+.asign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.apple div img{
+    height: 20px;
+    width: 20px;
+}
+footer{
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 20px;
+    color: white;
+}
+.hw{
+    height:40px ;
+    width: 350px ;
+}   
+.hr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.txt{
+    text-decoration: underline;
+    align-self: flex-start;
+    margin-left: 175px;
+}
